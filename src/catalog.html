@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Template</title>
+    <!-- Import Tailwind -->
+    <link rel="stylesheet" href="public/stylesheets/input.css">
+
+    <!-- My own stylesheets -->
+    <link rel="stylesheet" href="public/stylesheets/main.css">
+</head>
+
+<body data-barba="wrapper" class="debug-screens bg-pale-gold-50">
+
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+
+    <header class="px-4 overflow-hidden slide-right w-fit lg:mt-12 lg:ml-12">
+      <nav class="items-center px-16 py-2 rounded-full md:flex md:items-start md:justify-start bg-pale-gold-200">
+          <ul class="flex space-x-8">
+              <li><a href="/src/index.html" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Home</a></li>
+              <li><a href="/src/catalog.html" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Catalog</a></li>
+              <li><a href="#" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Contact</a></li>
+              <li><a href="#" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">About</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home" class="flex items-center justify-center transition-this">
+
+        <section>
+            <div class="m-4 lg:mt-12">
+
+                <h1 class="text-5xl font-semibold text-left"> Explore Our Handpicked Selections </h1>
+
+                <div class="py-6 bg-white sm:py-8 lg:py-12">
+                    <div class="">
+                  
+                      <div class="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/fanqi-VLy8wPYpV9s-unsplash.jpg" loading="lazy" alt="Photo by Rachit Tank" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                  
+                            <span class="absolute left-0 top-0 rounded-br-lg bg-pale-gold-500 px-3 py-1.5 font-medium text-sm uppercase tracking-wider text-pale-gold-100">sale</span>
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Necklace</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Tree of Life</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$129.00</span>
+                              <span class="text-base line-through text-pale-gold-300">$159.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/joel-ambass-8TWpDTEY5Vg-unsplash.jpg" loading="lazy" alt="Photo by Galina N" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Necklace</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Blu Ocean</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$89.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/mong-bui-rwb35vZTpBo-unsplash.jpg" loading="lazy" alt="Photo by eniko kis" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Earring</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Silver Spirals</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$149.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/paolo-cifuentes-cAhT1mzFbU8-unsplash.jpg" loading="lazy" alt="Photo by Irene Kredenets" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Bracelet</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Chained</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$349.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/paolo-cifuentes-Hdm6_k_-kkg-unsplash.jpg" loading="lazy" alt="Photo by Charles Deluvio" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Bracelet</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Linear Curves</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$699.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/paolo-cifuentes-i5cakrEM3nw-unsplash.jpg" loading="lazy" alt="Photo by Fernando Lavin" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Necklace</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Whole Hearted</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$199.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/pexels-dids-1653227.jpg" loading="lazy" alt="Photo by Kiran CK" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                            <span class="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">sale</span>
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Ring</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Curvature</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$299.00</span>
+                              <span class="text-base line-through text-pale-gold-300">$369.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                  
+                        <!-- product - start -->
+                        <div>
+                          <a href="#" class="relative block mb-2 overflow-hidden bg-gray-100 rounded-lg group h-80 lg:mb-3">
+                            <img src="/src/public/images/products/pexels-say-straight-2735970.jpg" loading="lazy" alt="Photo by Fakurian Design" class="object-cover object-center w-full h-full transition duration-300 group-hover:scale-110" />
+                          </a>
+                  
+                          <div class="flex flex-col gap-y-1">
+                            <a href="#" class="px-2 py-1 text-xs font-medium rounded-md bg-pale-gold-100 text-pale-gold-400 w-fit">Earring</a>
+                            <a href="#" class="mt-1 font-medium transition duration-100 text-pale-gold-700 hover:text-pale-gold-500 lg:text-xl">Illusion</a>
+                  
+                            <div class="flex flex-row items-center gap-2">
+                              <span class="font-bold text-gray-800 lg:text-base">$1570.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- product - end -->
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/public/scripts/main.js"],"sourcesContent":[null],"names":[],"version":3,"file":"index.5c7fab73.js.map","sourceRoot":"/__parcel_source_root/"}

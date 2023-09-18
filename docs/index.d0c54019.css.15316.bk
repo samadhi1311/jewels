@@ -1,0 +1,43 @@
+@import "https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@500&display=swap";
+body {
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Playfair Display, serif;
+}
+
+main {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+#image-grid {
+  height: 100vh;
+}
+
+.loading-screen {
+  background-color: #fff;
+  width: 0%;
+  height: 100%;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.load-container {
+  z-index: 9999;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=index.d0c54019.css.map */

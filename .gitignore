@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# misc
+.parcel-cache/**
+.parcel-cache/data.mdb

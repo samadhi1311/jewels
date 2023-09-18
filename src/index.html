@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Template</title>
+    <!-- Import Tailwind -->
+    <link rel="stylesheet" href="public/stylesheets/input.css">
+
+    <!-- My own stylesheets -->
+    <link rel="stylesheet" href="public/stylesheets/main.css">
+</head>
+
+<body data-barba="wrapper" class="debug-screens bg-pale-gold-50">
+
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+    <header class="px-4 overflow-hidden slide-right w-fit lg:mt-12 lg:ml-12">
+        <nav class="items-center px-16 py-2 rounded-full md:flex md:items-start md:justify-start bg-pale-gold-200">
+            <ul class="flex space-x-8">
+                <li><a href="/src/index.html" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Home</a></li>
+                <li><a href="/src/catalog.html" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Catalog</a></li>
+                <li><a href="#" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">Contact</a></li>
+                <li><a href="#" class="font-medium duration-200 text-pale-gold-700 hover:text-pale-gold-800 xl:text-lg">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home" class="flex items-center justify-center transition-this">
+
+        <section class="">
+            <div class="px-4">
+
+                <div class="flex items-center justify-center lg:m-2 lg:flex-row lg:mx-auto lg:gap-0">
+
+                    <div class="absolute w-full h-full bg-pale-gold-100/80 lg:w-0 lg:h-0 lg:-z-50"></div>
+
+                    <div class="absolute flex flex-col items-center justify-center w-full h-full text-center 2xl:px-8 lg:p-2 lg:rounded-lg lg:relative lg:w-8/12 xl:w-7/12 lg:m-4 xl:m-8 lg:items-start lg:gap-y-64 md:gap-y-32 xl:items-start"
+                        id="text-content">
+
+                        <div
+                            class="flex flex-col items-center self-end justify-center gap-4 2xl:gap-2 2xl:items-start slide-right lg:mt-8 gap-y-8">
+
+                            <h1
+                                class="max-w-sm text-3xl font-medium leading-normal lg:max-w-none lg:text-left 2xl:text-7xl md:text-5xl lg:6xl">
+                                Adorn Yourself with Elegance and Beauty.
+                            </h1>
+                            <br>
+                            <p class="max-w-xs text-justify lg:max-w-sm md:text-sm 2xl:text-base">"Embark on a Journey
+                                through Luxury and Style. Discover a World of Exquisite Craftsmanship and Elegance with
+                                Our Dazzling Array of Fine Jewelry Pieces." </p>
+                            <br>
+                            <div class="space-x-8">
+                                <button onclick="window.location.href='catalog.html'" class="px-4 py-2 transition-colors duration-200 text-pale-gold-50 bg-pale-gold-400 rounded-xl hover:bg-pale-gold-200 hover:text-pale-gold-800"> Explore </button>
+                                <a href="#" class="transition-colors duration-200 text-pale-gold-700 hover:text-pale-gold-500 slide-right"> Learn more &nbsp; → </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="relative flex items-center justify-center -z-10 lg:m-4 2xl:m-8"
+                        id="image-grid">
+                        <div class="flex flex-col">
+                            <div class="flex">
+                                <div class="flex flex-col my-auto">
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/jasmin-chew-UBeNYvk6ED0-unsplash.jpg" height="926"
+                                            width="428">
+                                    </div>
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/kateryna-hliznitsova-ceSCZzjTReg-unsplash.jpg"
+                                            height="926" width="428">
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/kateryna-hliznitsova-vbnxgxj6cJg-unsplash.jpg"
+                                            height="926" width="428">
+                                    </div>
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/kateryna-hliznitsova-pjrPWwwYx1I-unsplash.jpg"
+                                            height="926" width="428">
+                                    </div>
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/jasmin-chew-WKD2vIe8Rb0-unsplash.jpg" height="926"
+                                            width="428">
+                                    </div>
+                                </div>
+                                <div class="flex flex-col my-auto">
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/kateryna-hliznitsova-3zF00hHQb3I-unsplash.jpg"
+                                            height="926" width="428">
+                                    </div>
+                                    <div
+                                        class="relative m-2 overflow-hidden lg:m-4 2xl:m-8 image-container slide-up w-fit">
+                                        <img alt="thumbnail" class="object-cover rounded-md 2xl:rounded-3xl"
+                                            src="/src/public/images/kateryna-hliznitsova-P6NiFTyI294-unsplash.jpg"
+                                            height="926" width="428">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Import jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Import GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <!-- Import Barba JS -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- My barba transitions -->
+    <script src="public/scripts/transitions.js"></script>
+
+    <!-- My own scripts-->
+    <script src="public/scripts/main.js"></script>
+
+</body>
+
+</html>

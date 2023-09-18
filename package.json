@@ -1,0 +1,16 @@
+{
+  "name": "jewels",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx parcel src/index.html --dist-dir ./docs/ --port 1208 --open",
+    "build": "npx parcel build src/index.html --dist-dir ./docs/"
+  },
+  "keywords": [],
+  "author": "sama",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
