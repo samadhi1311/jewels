@@ -7,7 +7,7 @@
     "build": "npx parcel build src/index.html --dist-dir ./docs --public-url https://samadhi1311.github.io/jewels/"
   },
   "keywords": [],
-  "author": "sama",
+  "author": "samadhi1311",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3",
