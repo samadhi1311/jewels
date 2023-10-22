@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "npx parcel src/index.html --dist-dir ./docs/ --port 1208 --open",
-    "build": "npx parcel build src/index.html --dist-dir ./docs --public-url https://samadhilk.github.io/jewels/"
+    "build": "npx parcel build src/index.html --dist-dir ./docs --public-url https://samadhi1311.github.io/jewels/"
   },
   "keywords": [],
   "author": "sama",
